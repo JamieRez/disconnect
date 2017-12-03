@@ -4,7 +4,7 @@ public/components/jquery/*
 !public/components/jquery/dist
 public/components/jquery/dist/*
 !public/components/jquery/dist/jquery.min.js
-public/components/phaser
+!public/components/phaser
 public/components/phaser/*
 !public/components/phaser/build
 public/components/phaser/build/*
