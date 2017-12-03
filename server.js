@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 3000;
 
 const path = require('path');
 app.set('view engine' , 'jade');
@@ -12,6 +13,6 @@ app.get('/', (req,res) => {
   res.render('index');
 });
 
-app.listen('3000', (req,res) => {
-  console.log("listening on port 3000");
+app.listen(port, (req,res) => {
+  console.log("listening on port " + port);
 });
