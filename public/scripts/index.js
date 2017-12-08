@@ -8,7 +8,6 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, '', {
 });
 
 function preload() {
-  game.add.plugin(PhaserInput.Plugin);
   game.load.image('player', 'player.png');
   game.load.image('user', 'user.png');
 }
