@@ -1,3 +1,19 @@
 #canvas{
   background-color : black;
 }
+
+textarea {
+  display : none;
+  position : absolute;
+  top : 20;
+  left : 185;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding : 5px 10px;
+  background-color: transparent;
+  outline: none;
+  width : 450;
+  height : auto;
+  color : white;
+}

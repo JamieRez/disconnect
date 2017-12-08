@@ -4,10 +4,10 @@ var playerSchema = mongoose.Schema({
   socketId : String,
   angle : String,
   pos : {
-    x : Number,
-    y : Number
+    x : {type : Number, default : 300},
+    y : {type : Number, default : 300},
   }
 });
 var Player = mongoose.model("Player" , playerSchema);
 
-module.exports = player;
+module.exports = Player;
